@@ -1436,6 +1436,7 @@ header .contain .flex-data .see-more:hover span {
   overflow: hidden;
   padding: 20px;
   transition: all 0.3s linear;
+  text-align: center;
 }
 @media (max-width: 992px) {
   .services .box {
@@ -1474,7 +1475,7 @@ header .contain .flex-data .see-more:hover span {
 }
 @media (max-width: 992px) {
   .services .box p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 .services .box:hover {
