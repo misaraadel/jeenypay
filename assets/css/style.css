@@ -1117,7 +1117,6 @@ header .contain .flex-data .see-more:hover span {
   display: flex;
   align-content: center;
   align-items: center;
-  justify-content: flex-end;
   gap: 10px;
 }
 .about-us .contain .button-contain.flex-start {
@@ -1484,9 +1483,6 @@ header .contain .flex-data .see-more:hover span {
 }
 .services .box:hover {
   transform: translateY(-10px);
-}
-.services .box:hover p {
-  color: var(--primary-color);
 }
 .services .button-contain {
   width: 100%;

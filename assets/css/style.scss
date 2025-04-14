@@ -646,7 +646,6 @@ header {
 
     .button-contain {
       @include flexData();
-      justify-content: flex-end;
       gap: 10px;
 
       &.flex-start {
@@ -1011,10 +1010,6 @@ header {
 
     &:hover {
       transform: translateY(-10px);
-      
-      p {
-        color: var(--primary-color);
-      }
     }
   }
 
